@@ -1,17 +1,15 @@
 import 'package:flutter/cupertino.dart';
 
-class Transaction {
+class Goal {
   int id;
   String title;
-  String type;
   double amount;
-  String category;
+  DateTime enddate;
 
-  Transaction({
+  Goal({
     required this.id,
     required this.title,
-    required this.type,
     required this.amount,
-    required this.category
+    required this.enddate
   });
 }

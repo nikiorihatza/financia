@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'FINANCIA',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        fontFamily: 'Croogla'
       ),
-      home: const HomePage(title: 'FINANCIA - HOME'),
+      home: const AppPage(title: 'FINANCIA - HOME'),
     );
   }
 }
